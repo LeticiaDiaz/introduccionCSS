@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @media (max-width: 600px) {
+        #contenido {
+          width: 100%;
+          background-color: red;
+          font-size: 11px;
+          font-family: Verdana;
+        }
+        #recomendaciones {
+          width: 100%;
+          background-color: red;
+          font-size: 11px;
+          font-family: Georgia;
+        }
+      }
+
+      @media (max-width: 800px) and (min-width: 600px) {
+        #contenido {
+          width: 60%;
+          background-color: green;
+          font-size: 12px;
+          font-family: Verdana;
+        }
+        #recomendaciones {
+          width: 30%;
+          background-color: blue;
+          font-size: 12px;
+          font-family: Georgia;
+        }
+      }
+      @media (min-width: 800px) {
+        #contenido {
+          width: 80%;
+          background-color: violet;
+          font-size: 14px;
+          font-family: Verdana;
+        }
+        #recomendaciones {
+          width: 15%;
+          background-color: yellow;
+          font-size: 12px;
+          font-family: Georgia;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenido">
+      <h1>Lorem, ipsum dolor.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+        consectetur, quisquam ullam deserunt voluptatum illo laboriosam veniam
+        inventore impedit iusto cupiditate recusandae eveniet amet esse saepe et
+        tempora temporibus nisi sit nemo, quibusdam doloremque ipsam vitae.
+        Similique autem expedita quos.
+      </p>
+    </div>
+    <div id="recomendaciones">
+      <h1>Lorem, ipsum.</h1>
+      <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ol>
+    </div>
+  </body>
+</html>
